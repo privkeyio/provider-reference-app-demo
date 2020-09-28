@@ -2,7 +2,10 @@
   "name": "provider-reference-app",
   "version": "1.1.0",
   "private": true,
-  "description": "",
+  "description": "This demo shows how to use Trinsic's Provider API to manage organizations under your Trinsic account. It is a Node.js Express app which makes Trinsic Provider API calls with our service client.",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -15,5 +18,20 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "morgan": "~1.9.1"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wksantiago/provider-reference-app-demo.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "William K Santiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wksantiago/provider-reference-app-demo/issues"
+  },
+  "homepage": "https://github.com/wksantiago/provider-reference-app-demo#readme"
 }
